@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "27hw"
+version = "0.1.0"
+description = ""
+authors = ["Masyanja <masyanja@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^4.1.4"
+django-admin = "^2.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
